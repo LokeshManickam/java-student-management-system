@@ -173,7 +173,7 @@ public class Main {
 
         System.out.println("\nCurrent Student Details:");
 
-        student.displayDetails();
+        System.out.println(student);
 
         System.out.println("\nEnter New Details:");
 
@@ -233,7 +233,7 @@ public class Main {
 
         System.out.println("\nStudent Found:");
 
-        student.displayDetails();
+        System.out.println(student);
 
         boolean deleted
                 = studentService.deleteStudent(id);
